@@ -1,0 +1,19 @@
+<div class="registrazione">
+  <div class="registrazione-triangle"></div>
+  <h1 class="registrazione-header">eVent</h1>
+  <h2 class="registrazione-header">Registrazione</h2>
+
+  <form class= "form" action="Reg.php" method = "post">
+   <p><input type= "text" placeholder = "username" name = "username" required></p>
+   <p><input type="password" placeholder = "password"  name = "password" required  ></p>
+   <p><input type= "text" placeholder = "nome" name =  "nome" required></p>
+   <p><input type= "text"placeholder = "cognome" name = "cognome" required></p>
+   <p><input type= "tel" placeholder = "1234567890" name = "tel" pattern="[0-9]{10}" required></p>
+   <p> <input type="radio" name="sesso" value="maschio"> Maschio 
+   <input type="radio" name="sesso" value="femmina"> Femmina
+   <input type="radio" name="sesso" checked="checked" value="NS"> Non specificato </p>
+   <p><input type= "date" name = "data_nascita" required></p>
+   <p><input type= "text" placeholder = "citta di interesse" name = "citta_interesse" ></p>
+   <p><input type="submit" value="Conferma"></p>
+  </form>
+</div>
